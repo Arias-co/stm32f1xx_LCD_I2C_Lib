@@ -176,9 +176,9 @@ int main( void )
 //        HAL_Delay( 10 );
 //
 //        lcd.SetCursor(1,1);
-//        lcd.Send_String((char *)"hola mundo ariel", STR_SLIDE);
+//        lcd.Send_String((char *)"hola mundo cruel", STR_SLIDE);
 //        lcd.SetCursor(2,1);
-//        lcd.Send_String((char *)"hola mundo ariel", STR_SLIDE);
+//        lcd.Send_String((char *)"hola mundo cruel", STR_SLIDE);
 //        HAL_Delay(300);
 //        lcd.Clear();
 //        HAL_Delay(10);

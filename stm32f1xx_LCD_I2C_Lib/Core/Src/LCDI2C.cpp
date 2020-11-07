@@ -199,7 +199,7 @@ void LCD_I2C::Init(void)
 {
     i2cDeviceCheck();
     Set_Command(LCD_CLEAR_DISPLAY);
-    HAL_Delay(500);
+    HAL_Delay(200);
     Set_Command(LCD_RETURN_HOME);
     HAL_Delay(5);
     Set_Command(LCD_FUNCTION_SET|MODE_4B|MODE_2L|MODE_5X8_DOTS);
@@ -207,7 +207,7 @@ void LCD_I2C::Init(void)
     Set_Command(LCD_DISPLAY_CONTROL|DISPLAY_ON|CURSOR_OFF|BLINK_OFF);
     HAL_Delay(5);
     Set_Command(LCD_SET_DDRAMADDR);
-    HAL_Delay(500);
+    HAL_Delay(200);
 }
 
 /*************************END OF FILE*****************************/
